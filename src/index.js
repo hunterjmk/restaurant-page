@@ -3,10 +3,12 @@ import './style.css';
 
 import { createHomePage } from './home';
 import { createMenuPage } from './menu';
-
-const display = document.querySelector('#content');
+import { createAboutPage } from './about';
 
 // createHomePage(display);
-createMenuPage(display);
+// createMenuPage(display);
+createAboutPage(display);
+
+
 
 console.log('Hello World');

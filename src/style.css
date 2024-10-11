@@ -8,10 +8,12 @@ html,
 body {
     margin: 0;
     padding: 0;
-    /* comment these when done with the page */
-    /* height: 100%;
-    overflow: hidden; */
     line-height: 1.5;
+}
+
+.body {
+    height: 100%;
+    overflow: hidden;
 }
 
 html {
@@ -95,7 +97,8 @@ button:hover {
 }
 
 .content p,
-.menu-p {
+.menu-p,
+.about-par {
     font-size: 3rem;
 }
 
