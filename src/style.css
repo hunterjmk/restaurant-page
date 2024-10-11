@@ -8,10 +8,6 @@ html,
 body {
     margin: 0;
     padding: 0;
-    height: 100%;
-    /* Ensure both html and body cover the full viewport */
-    overflow: hidden;
-    /* Prevent scrolling if unnecessary */
     line-height: 1.5;
 }
 
@@ -59,13 +55,18 @@ button:hover {
     */
 }
 
-.header-container h1{
+.header-container h1,
+.header-container h2 {
     font-size: 5rem;
     color: #000000b9;
     margin-bottom: 0;
 }
 
-.header-container > p {
+.header-container h2 {
+    font-size: 4.5rem;
+}
+
+.tagline {
     font-style: italic;
     color: #8a766b;
 }
@@ -88,4 +89,8 @@ button:hover {
     height: 500px;
     border-radius: 50%;
     background: url('./image/cheese.jpeg') no-repeat;
+}
+
+.content p {
+    font-size: 3rem;
 }

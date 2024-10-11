@@ -16,6 +16,7 @@ function createHomePage() {
     const hImage = document.createElement('div');
 
     hDiv.classList.add('header-container');
+    hPar.classList.add('tagline');
     hMedia.classList.add('media');
     hImage.classList.add('img');
 
@@ -31,14 +32,30 @@ function createHomePage() {
 
     const cDiv = document.createElement('div');
     const hTwo = document.createElement('h2');
+    const hTwo2 = document.createElement('h2');
     const cPar = document.createElement('p');
+    const cPar2 = document.createElement('p');
+    const cPar3 = document.createElement('p');
+    const cPar4 = document.createElement('p');
 
-    hTwo.textContent = ''
+    cDiv.classList.add('header-container', 'content');
+
+    hTwo.textContent = 'Good Food, Good Friends, Good Times';
+    cPar.textContent = `It’s not just about the food here — it’s about the experience. With retro booths, warm smiles, and that familiar hum of conversation, Mama Dilly’s is your cozy corner to escape the rush and enjoy simple pleasures.`;
+    cPar2.textContent = `Whether you're grabbing a quick coffee or settling in for a slow meal, we’re here to make sure every visit feels like you’re part of the family.`;
+
+    hTwo2.textContent = 'Stop By Anytime';
+    cPar3.textContent = `Come for breakfast, brunch, lunch, or dinner — or even just to treat yourself to a slice of Mama’s famous pie.`;
+    cPar4.textContent = `Our doors (and hearts) are open, and we can’t wait to see you.`;
+
+    cDiv.append(hTwo, cPar, cPar2, hTwo2, cPar3, cPar4);
 
 
 
 
-    container.append(hDiv);
+
+
+    container.append(hDiv, cDiv);
 
 }
 
