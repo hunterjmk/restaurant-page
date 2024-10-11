@@ -3,9 +3,7 @@ This is the home page module file.
 */
 
 
-function createHomePage() {
-    const container = document.querySelector('#content');
-
+function createHomePage(container) {
     // Head Section
 
     const hDiv = document.createElement('div');
@@ -50,13 +48,7 @@ function createHomePage() {
 
     cDiv.append(hTwo, cPar, cPar2, hTwo2, cPar3, cPar4);
 
-
-
-
-
-
     container.append(hDiv, cDiv);
-
 }
 
 export { createHomePage };

@@ -8,6 +8,9 @@ html,
 body {
     margin: 0;
     padding: 0;
+    /* comment these when done with the page */
+    /* height: 100%;
+    overflow: hidden; */
     line-height: 1.5;
 }
 
@@ -91,6 +94,32 @@ button:hover {
     background: url('./image/cheese.jpeg') no-repeat;
 }
 
-.content p {
+.content p,
+.menu-p {
     font-size: 3rem;
+}
+
+.menu-p {
+    margin-bottom: 1rem;
+}
+
+.menu-img {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.burrito {
+    height: 375px;
+    background: url('./image/breakfast-burrito.webp') no-repeat;
+}
+
+.tacos {
+    height: 750px;
+    background: url('./image/Healthy-Breakfast-Tacos.webp') no-repeat;
+}
+
+.yoghurt {
+    height: 380px;
+    background: url('./image/V9eN8K1Ez0uo6S173ttIbg_gmi_hi_res_jpeg.webp') no-repeat;
+    margin-bottom: 3rem;
 }
